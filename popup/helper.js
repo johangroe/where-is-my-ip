@@ -29,19 +29,19 @@ api_lang = browser.i18n.getUILanguage()
 console.log("Location locale: " + api_lang)
 
 if (api_locales.includes(api_lang)) {
-    console.log("no change")
+    //console.log("no change")
 
 } else if (api_locales.includes(api_lang.split("-")[0])) {
     api_lang = api_lang.split("-")[0]
-    console.log("split change")
+    //console.log("split change")
 
 } else if (api_locales.findIndex(element => element.startsWith(api_lang.split("-")[0])) > -1) {
     api_lang = api_locales[api_locales.findIndex(element => element.startsWith(api_lang.split("-")[0]))]
-    console.log("region change")
+    //console.log("region change")
 
 } else {
     api_lang = "en"
-    console.log("english change")
+    //console.log("english change")
 }
 
 //console.log("Location locale: " + api_lang)
