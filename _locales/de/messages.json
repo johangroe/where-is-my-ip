@@ -1,0 +1,33 @@
+{
+    "extensionName": {
+        "message": "Wo ist meine IP?",
+        "description": "Name der Erweiterung"
+    },
+
+    "extensionDescription": {
+        "message": "Sagt dir, wo deine öffentliche IP lokalisiert ist.",
+        "description": "Beschreibung der Erweiterung"
+    },
+
+    "popupIpDescription": {
+        "message": "Du bist mit dieser IP online:",
+        "description": "IP-Text im Popup"
+    },
+
+    "popupLocationDescription": {
+        "message": "Welche zu diesem Ort gehört:",
+        "description": "Orts-Text im Popup"
+
+    },
+
+    "popupLoading": {
+        "message": "lädt...",
+        "description": "Lade-Text im Popup"
+    },
+
+    "popupErrorFailed": {
+        "message": "Fehlgeschlagen!",
+        "description": "Fehler mit Inhalt Fehlgeschlagen"
+    }
+
+}
