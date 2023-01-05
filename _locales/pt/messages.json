@@ -1,0 +1,33 @@
+{
+    "extensionName": {
+        "message": "Onde está meu IP?",
+        "description": "Nome da Extensão"
+    },
+
+    "extensionDescription": {
+        "message": "Lhe diz onde seu IP está localizado.",
+        "description": "Descrição da Extensão"
+    },
+
+    "popupIpDescription": {
+        "message": "Você está on-line com um IP:",
+        "description": "Texto do IP na janela"
+    },
+
+    "popupLocationDescription": {
+        "message": "Que corresponde a essa localização:",
+        "description": "Localização do texto na Janela"
+
+    },
+
+    "popupLoading": {
+        "message": "carregando...",
+        "description": "Carregando texto na janela"
+    },
+
+    "popupErrorFailed": {
+        "message": "Falhou!",
+        "description": "Erro contendo uma falha"
+    }
+
+}
