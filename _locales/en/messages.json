@@ -5,12 +5,12 @@
     },
 
     "extensionDescription": {
-        "message": "Tells you, where your public IP is located.",
+        "message": "Tells you where your public IP is located.",
         "description": "Description of the extension"
     },
 
     "popupIpDescription": {
-        "message": "You're online with IP adress:",
+        "message": "You're online with IP address:",
         "description": "IP text in the popup"
     },
 
