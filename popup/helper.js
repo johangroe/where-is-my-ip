@@ -18,15 +18,15 @@ document.getElementById("ip").innerText = browser.i18n.getMessage("popupLoading"
 document.getElementById("location").innerText = browser.i18n.getMessage("popupLoading")
 
 // Localize the location, default: "en"
-// to be supported in the future: ["es", "pt-BR", "fr", "ja", "zh-CN", "ru"]
+// to be supported in the future: ["en", "de", "es", "pt-BR", "fr", "ja", "zh-CN", "ru"]
 /* logic: 
     if language is full supported, choose it. 
     if language is in another region supported, choose the other region.
     otherwise choose english.
     */
-api_locales = ["en", "de"]  //["es", "pt-BR", "fr", "ja", "zh-CN", "ru"]
+api_locales = ["en", "de", "pt-BR", "fr"] 
 api_lang = browser.i18n.getUILanguage()
-console.log("Location locale: " + api_lang)
+//console.log("Location locale: " + api_lang)
 
 if (api_locales.includes(api_lang)) {
     //console.log("no change")
@@ -44,7 +44,8 @@ if (api_locales.includes(api_lang)) {
     //console.log("english change")
 }
 
-//console.log("Location locale: " + api_lang)
+
+console.log("API locale: " + api_lang)
 
 
 
@@ -65,6 +66,7 @@ httpGetAsync("https://api.ipify.org/")
                             document.getElementById("location").innerText = detail_array.slice(1,4).join(" / ")
 
                         } else {
+                            // api failed finding location
                             failId("location")
                         }
                     }
