@@ -1,3 +1,4 @@
+[![status - finished](https://img.shields.io/badge/status-finished-brightgreen)](https://github.com/johangroe/)
 # where-is-my-ip
 This is the source code for the Firefox extension "[Where is my IP?](https://addons.mozilla.org/de/firefox/addon/where-is-my-ip/)".
 
